@@ -67,22 +67,27 @@
 **Procedure:**
 
 $(i)$ Laspeyre's Index no:
+
 $$
 I^{La}= \frac{\sum_{j=1}^np_{ij}q_{0j}}{\sum_{j=i}^np_{0j}q_{0j}}\times100
 $$
 
 
 $(ii)$ Paasche's Index No:
+
 $$
 I^{Pa}=\frac{\sum_{j=1}^n p_{ij}q_{ij}}{\sum_{j=1}^np_{0i}q_{ij}}\times100
 $$
 
 
 $(iii)$ Marshal-Edgeworth Index no:
+
 $$
 I^{MR}=\frac{\sum_{j=1}^np_{ij}(q_{0j}+q_{ij})}{\sum_{j=1}^np_{0j}(q_{oj}+q_{ij})}\times100
 $$
+
 $(iv)$ Fisher's Ideal Index no. :
+
 $$
 I^{Fi}=\sqrt{I^{La}\times I^{Pa}}
 $$
