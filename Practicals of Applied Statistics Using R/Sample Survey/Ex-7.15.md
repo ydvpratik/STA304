@@ -35,20 +35,26 @@ Also find the sample size of each stratum under $(a)$ and $(b)$. Also obtain the
 **Procedure:** If $Y_{ij}$ denote the area of the $j^{th}$ farm in the $i^{th}$ stratum,
 
 then, Population mean is given by,
+
 $$
 \bar Y_N=\frac{\sum N_i \bar Y_{N_i}}{\sum{N_i}}
 $$
+
 and Population mean square error is given by,
+
 $$
 \begin{align*}
 S^2 & =\frac{1}{N-1}\sum_i \sum_j (Y_{ij}-\bar Y_N )^2 \\
    & = \frac{1}{N-1}\bigg[\sum_i(N_i-1)S_i^2+\sum_iN_i \bar Y_{N_i}^2-N \bar Y_N^2\bigg]
 \end{align*}
 $$
+
 Variance due to proportional allocation is given by,
+
 $$
 Var(\bar y_n)_R=\frac{N-n}{Nn}\times S^2
 $$
+
 Total estimated area under wheat is $\hat y=N\bar y_n$
 
 $\therefore \ \ \ \ \ Var(\hat Y)=N^2 Var(\bar y_n)_R$  
@@ -62,32 +68,43 @@ Under Neyman's optimum Allocation $n_i \propto N_iS_i$
 $\Rightarrow$                $n_i=\frac{nN_iS_i}{\sum N_iS_i}$
 
 Variance due to proportional allocation is given by,
+
 $$
 Var(\bar y_{st})_P=\bigg(\frac{1}{n}-\frac{1}{N}\bigg)\sum_ip_iS_i^2
 $$
+
 $\therefore$
+
 $$
 \begin{align*}
 Var(\hat Y)_P & =N^2Var(\bar y_{st})_P \\
 &=\frac{N-n}{n}\sum_i^kN_iS_i^2
 \end{align*}
 $$
+
 Variance due to Neyman  allocation is given by,
+
 $$
 Var(\bar y_{st})_N=\frac{1}{nN^2}\bigg(\sum _iN_iS_i\bigg)^2-\frac{1}{N^2}\bigg(\sum N_iS_i^2\bigg
 )
 $$
+
 $\therefore $ 
+
 $$
 Var(\hat Y)_{Ney}=N^2Var(\bar y_{st})_{Ney}=\frac{1}{n}\bigg(\sum_iN_iS_i^2 \bigg)^2-\sum_iN_iS_i^2
 $$
+
 Gain in Efficiency in stratification random sampling over simple random sampling without replacement:
 
 $(a)$ Due to Proportional allocation is 
+
 $$
 \frac{Var(\bar y_n)_R-Var(\bar y_{st})_p}{Var(\bar y_{st})_{P}}
 $$
+
 $(b)$ Due to Neyman's optimum allocation is:
+
 $$
 \frac{Var(\bar y_n)_R-Var(\bar y_{st})_{Ney}}{Var(\bar y_{st})_N}
 $$
@@ -199,4 +216,10 @@ paste0("This implies that proportional allocation provides better estimates as c
 [1] "This implies that Neyman's optimum allocation provides better estimates as compared to proportional allocation "
 ```
 
-**Conclusion:**  From the above experiment we conclude that, $\displaystyle Var(\hat Y)_R=15422678$ ,  $\displaystyle Var(\hat Y)_P=8555881$  and $Var(\hat Y)_{Ney}=7110756$. Also observed that Neyman's optimum allocation provides better estimates as compared to proportional allocation.
+**Conclusion:**  From the above experiment we conclude that,
+$\displaystyle Var(\hat Y)_R=15422678$ , 
+
+$\displaystyle Var(\hat Y)_P=8555881$  and  
+
+$Var(\hat Y)_{Ney}=7110756$. 
+Also observed that Neyman's optimum allocation provides better estimates as compared to proportional allocation.
