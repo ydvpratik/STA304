@@ -54,9 +54,9 @@
 
 **Aim:** To construct the cost of living index for the year 2005 (base 2001=100) using method of weighted price relatives.
 
-**Formulas:** Cost of living index =$\displaystyle \frac{\sum Pw}{\sum w}$   
+**Formulas:** Cost of living index = $\displaystyle \frac{\sum Pw}{\sum w}$   
 
-$\displaystyle P=(p_i/p_o)*100$ ;Where, $p_i$ is price of current year and $p_o$ is price of Base year and $w$ is the Weight .
+$\displaystyle P=(p_i/p_o)*100$ ; Where, $p_i$ is price of current year and $p_o$ is price of Base year and $w$ is the Weight .
 
 **R-code:**
 
