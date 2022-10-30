@@ -138,6 +138,6 @@ lines(yr3,av7,"o",lty=3,col="red");
 
 **R-Graphics:**
 
-![image-20220901223248620](C:\Users\Pranav\AppData\Roaming\Typora\typora-user-images\image-20220901223248620.png)
+![image-20220901223248620](https://raw.githubusercontent.com/ydvpratik/img/master/2022/09/upgit_20220916_1663341108.png)
 
 **Conclusion:** From the graph we notice that after thae $6^{th}$ year the trend curve of 5 yearly moving avg. is almost is a straight line. But the graph of 7 yearly moving avg. is a wavelike line. Thus it is quit clear that after  the $6^{th}$ year, data follows regular cycle of length 5 years. Also when the actual data has peaks the seven years moving avg. has depressions.
