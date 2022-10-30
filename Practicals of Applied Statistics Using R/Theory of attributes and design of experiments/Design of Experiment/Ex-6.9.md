@@ -2,7 +2,7 @@
 
 ##### Practical Topic : Analysis of Variance for $2^2$ - Experiment
 
-**Experiment:** An experiment was planned to study the effect of sulphate of potash and super phosphate on the yield of potatoes. All the combinations of 2 levels of super phosphate [0 cent $(p_0)$ and 5 cent $(p_1/acre)$] and two levels of sulphate of potash [o cent $(k_0)$ and 5 cent $(k_1/acre)$ ]   were studied in a randomized block design with 4 replications for each. The $(1/70)$ yields [lb. per plot =$(1/70)$] acre obtained are given in below table.
+**Experiment:** An experiment was planned to study the effect of sulphate of potash and super phosphate on the yield of potatoes. All the combinations of 2 levels of super phosphate [0 cent $(p_0)$ and 5 cent $(p_1/acre)$] and two levels of sulphate of potash [o cent $(k_0)$ and 5 cent $(k_1/acre)$ ]   were studied in a randomized block design with 4 replications for each. The $(1/70)$ yields [ lb. per plot = $(1/70)$ ] acre obtained are given in below table.
 
 <table>
     <tr class="ab">
@@ -68,9 +68,9 @@
 
 **Procedure:** $\displaystyle R.S.S=\sum_i\sum_j{y_{ij}}^2$ ;   Correction Factor = $\displaystyle \frac{Total}{N}$ ; M.S.S = $\displaystyle\frac{S.S}{d.f}$ 
 
-Total S.S =  $\displaystyle RSS-C.F.$  ;   Block S.S=$\displaystyle \frac{1}{n}\sum_iB_j^2-C.F$  ;  Treatment S.S = $\displaystyle \frac{1}{n}\sum_iT_i^2-C.F$ ;  
+Total S.S =  $\displaystyle RSS-C.F.$  ;   Block S.S= $\displaystyle \frac{1}{n}\sum_iB_j^2-C.F$  ;  Treatment S.S = $\displaystyle \frac{1}{n}\sum_iT_i^2-C.F$ ;  
 
-Error S.S= $\displaystyle Total\,S.S-(Block\,S.S+Treatment\,S.S)$ 
+Error S.S= $\displaystyle Total\,S.S-(Block ~~ S.S+Treatment ~~ S.S)$ 
 
 YATES' Method for $2^2$ - Experiment:
 
