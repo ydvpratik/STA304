@@ -16,7 +16,7 @@
 
 **Procedure:** Correction factor is given by; $C.F=\displaystyle \frac{G^2}{N}$  
 
-Total S.S. = $\displaystyle \sum_i\sum_j{y_{ij}}^2-C.F.$ ,  Treatment S.S = $\displaystyle\sum\frac{T_i^2}{r_t}-C.F$ , Error S.S  = $Total \,S.S-Treatment\,S.S$ and  M.S.S=$\displaystyle \frac{S.S.}{d.f.}$ .
+Total S.S. = $\displaystyle \sum_i\sum_j{y_{ij}}^2-C.F.$ ,  Treatment S.S = $\displaystyle\sum\frac{T_i^2}{r_t}-C.F$ , Error S.S  = $Total ~~ S.S-Treatment ~~ S.S$ and  M.S.S= $\displaystyle \frac{S.S.}{d.f.}$ .
 
 **R-Code:**  
 
