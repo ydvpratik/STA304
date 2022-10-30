@@ -7,10 +7,12 @@
 **Aim:** To plot OC,ATI and AOQ curve. Also to find the value of AOQL.
 
 **Procedure:** Using Poisson approximation to hyper-geometric distribution, the OC curve, i.e., the probability of acceptance L(p) or $P_a$  is given by;
+
 $$
 P_a=\sum_{x=0}^c\frac{e^{-np}(np)^x}{x!}=\sum_{x=0}^c\frac{e^{-\lambda}\lambda^x}{x!}
 $$
-$\displaystyle ATI=n+(N-n)(1-P_a)\; \;and\;AOQ=p.P_a$ .
+
+$\displaystyle ATI=n+(N-n)(1-P_a) ~~ and ~~ AOQ=p.P_a$ .
 
 **R-code**
 
