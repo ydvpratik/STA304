@@ -137,6 +137,6 @@ paste0("We observe that variance of ",order[1],"<",order[2],"<",order[3])
 
 **Conclusion:** From the above experiment we conclude that,
 
-$\displaystyle Var(\bar y_{st})<Var(\bar y_{sys})<Var(\bar y_{n})_R$ .
+$\displaystyle Var(\bar y_{st}) < Var(\bar y_{sys}) < Var(\bar y_{n})_R$ .
 
  
