@@ -69,9 +69,11 @@
   <td>10&nbsp;</td>
  </tr>
 </table>
+
 **Aim:** To calculate standardised death rate from the above data.
 
 **Procedure:** *Standardised Death Rates* of *A* and *B* are given respectively by :
+
 $$
 (STDR)_A=\frac{\displaystyle\sum_xm_x^aP_x^s}{\displaystyle\sum_xP_x^s}
 $$
