@@ -14,16 +14,19 @@
 **Procedure:**
 
 *General Fertility Rate (G.F.R):* This consists in relating the total number of live births to the number of females in the reproductive or child bearing ages and is given by:
+
 $$
 G.F.R=\frac{B^t}{\displaystyle\sum_{\lambda_1}^{\lambda_2}{^fP_x}}\times k
 $$
 
 *Total Fertility Rate (T.F.R):* It is Obtained on adding the annual age-specific fertility rates and given by:
+
 $$
 T.F.R=\sum_{\lambda_1}^{\lambda_2}i_x=\sum_{\lambda_1}^{\lambda_2}\frac{B_x}{^fP_x}\times k
 $$
 
 *Gross Reproduction Rate(G.R.R):* It is defined as the sum of age-specific fertility rate calculated from female births for each year of reproductive period and given by:
+
 $$
 G.R.R=\sum_{\lambda_1}^{\lambda_2}\frac{^fB_x}{^fP_x}\times k=\sum_{\lambda_1}^{\lambda_2}{^fi_x}
 $$
