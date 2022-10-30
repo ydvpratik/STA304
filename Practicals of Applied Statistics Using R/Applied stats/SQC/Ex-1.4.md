@@ -14,7 +14,7 @@
 | 6         | 0.8332 | 0.011 | 13        | 0.8356 | 0.013 | 20        | 0.8374 | 0.006 |
 | 7         | 0.8340 | 0.009 | 14        | 0.8322 | 0.005 |           |        |       |
 
-$(a)$ From these data, obtain the control limits for $\bar X$ and $R-Charts$ to control the length of bomb bases produced in the future.
+$(a)$ From these data, obtain the control limits for $\bar X$ and  $R-Charts$ to control the length of bomb bases produced in the future.
 
 $(b)$ The above samples were taken every 15 minutes in order of production. The production rate was 350 units per hour and tolerance were 0.820 and 0.840 inches.
 
@@ -22,17 +22,17 @@ On the assumption that the lengths of the bomb bases are normally distributed, w
 
 ​		[For $n=5,$ use $A_2=0.58, \ D_3=0, \ D_4=2.12, \ d_2=2.326$]
 
-**Aim:** To compute $(a)$control limits for $\bar X$ and $R-charts$ to control the length of bomb bases produced in the future and $(b)$ estimate percent of bomb base outside the of tolerance limit when process is under control.
+**Aim:** To compute $(a)$ control limits for $\bar X$ and $R-charts$ to control the length of bomb bases produced in the future and $(b)$ estimate percent of bomb base outside the of tolerance limit when process is under control.
 
-**Formulas:** $\displaystyle \bar{\bar X}=\frac{1}{n}\sum_{i=1}^n \bar X_i$   and $\displaystyle \bar R=\frac{1}{n}\sum_{i=1}^nR_i$ 
+**Procedure:** $\displaystyle \bar{\bar X}=\frac{1}{n}\sum_{i=1}^n \bar X_i$   and $\displaystyle \bar R=\frac{1}{n}\sum_{i=1}^nR_i$ 
 
-Control limits on $\bar X -chart $ is given by:
+Control limits on $\bar X -chart$ is given by:
 
-$\displaystyle UCL_{\bar X}=\bar{\bar X}+A_2\bar R$       $\displaystyle LCL_{\bar X}=\bar{\bar X}-A_2\bar R$  and $CL_{\bar X}=\bar{\bar X}$  
+$\displaystyle UCL_{\bar X}=\bar{\bar X}+A_2\bar R$ ,      $\displaystyle LCL_{\bar X}=\bar{\bar X}-A_2\bar R$  and  $CL_{\bar X}=\bar{\bar X}$  
 
-Control limits on $R-chart $ is given by:
+Control limits on $R-chart$ is given by:
 
-$\displaystyle UCL_R=D_4\bar R$               $\displaystyle LCL_R=D_3\bar R$    and  $CL_R=\bar R$ 
+$\displaystyle UCL_R=D_4\bar R$ ,          $\displaystyle LCL_R=D_3\bar R$  and  $CL_R=\bar R$ 
 
 In case when process is in control, estimate of population mean can be obtained as- $\displaystyle \hat{\mu}=\bar{\bar X}'$    and estimate of standard deviation can be obtained from R as-  $\displaystyle\hat\sigma=\frac{\bar R'}{d_2}$ 
 
@@ -121,8 +121,8 @@ Percnt_frc_def=100*round(p,4);Percnt_frc_def
 
 **Conclusion:**   From the above experiment we conclude;
 
-- Control limit for $\bar X$ charts are  $\displaystyle UCL_{\bar X}=0.8379754, \;\;CL_\bar X=0.8340778\; and\; LCL_\bar X$
+- Control limit for $\bar X$ charts are  $\displaystyle UCL_{\bar X}=0.8379754, \\ CL_\bar X=0.8340778 \\ and \\ LCL_\bar X=0.8301802$
 
-- Control limits for R-charts are $\displaystyle UCL_R=0.014098,\;CL_R=0.00665\; and\;LCL_R=0$ .
+- Control limits for R-charts are $\displaystyle UCL_R=0.014098,\\ CL_R=0.00665 \\ and \\ LCL_R=0$ .
 
 - Percent of bomb base outside the of tolerance limit when process is under control is $2.02$ .
