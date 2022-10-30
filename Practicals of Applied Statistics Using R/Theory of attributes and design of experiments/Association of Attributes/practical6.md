@@ -6,8 +6,8 @@
 
 | (a)  | N=5000   | (A)=2350         | (B)=3100       | (AB)=1600            |
 | ---- | -------- | ---------------- | -------------- | -------------------- |
-| (b)  | (A)=490  | (AB)=294         | ($\alpha$)=570 | ($\alpha B$)=380     |
-| (c)  | (AB)=256 | ($\alpha B$)=768 | ($A\beta$)=48  | ($\alpha \beta$)=144 |
+| (b)  | (A)=490  | (AB)=294         | ( $\alpha$ )=570 | ( $\alpha B$ )=380     |
+| (c)  | (AB)=256 | ( $\alpha B$ )=768 | ( $A\beta$ )=48  | ( $\alpha \beta$ )=144 |
 
 **AIM:** To show whether two numbers are independent, positively associated or negatively associated .
 
