@@ -18,6 +18,7 @@
 **Aim:** To compare  the precision of  systematic sampling, random sampling and stratified sampling from above data.
 
 **Procedure:** 
+
 $$
 \begin{align*}
 Var(y_{sys}) &=\frac{1}{k}\sum_{i=1}^{k}(\bar y_{i.}-\bar y_{..})^2=\frac{1}{k}
@@ -31,9 +32,11 @@ Var(\bar y_{st})^2=\frac{k-1}{nk}\times {S_{swt}}^2
 $$
 
 where $\displaystyle {S_{wst}}^2=\frac{1}{n(k-1)}\sum_i\sum_j(y_{ij}-\bar y_{i.})^2$ is the within (stratum) mean sum of squares.
+
 $$
 Var(\bar y_n)_R=\bigg(\frac{1}{n}-\frac{1}{N}\bigg)S^2
 $$
+
 Where $S^2=\frac{1}{N-1}\displaystyle\sum_i\sum_j(y_{ij}-\bar y_{..})^2$ is the total mean S.S
 
 Total S.S =$\displaystyle\sum \sum {y_{ij}}^2-Correction \ factor$
