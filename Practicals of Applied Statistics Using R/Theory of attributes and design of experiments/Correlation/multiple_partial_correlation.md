@@ -11,10 +11,13 @@ Find the partial correlation coefficient $r_{12.3}$ and multiple correlation coe
 **Aim:** To compute partial correlation coefficient $r_{12.3}$  and multiple correlation coefficient $R_{1.23}$ .
 
 **Procedure:** Partial correlation coefficient $r_{12.3}$ is given by, 
+
 $$
 r_{12.3}=\frac{r_{12}-r_{13}r_{23}}{\sqrt{(1-r_{13}^2)(1-r_{23}^2)}}
 $$
+
 and, Multiple correlation coefficient $R_{1.23}$is given by,
+
 $$
 R_{1.23}^2=\frac{r_{12}^2+r_{13}^2-2r_{12}r_{13}r_{23}}{1-r_{23}^2}
 $$
