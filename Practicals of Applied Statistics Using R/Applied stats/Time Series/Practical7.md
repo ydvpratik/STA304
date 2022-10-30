@@ -49,5 +49,4 @@ lines(trend_year,movavg,"o",lty=2,pch=1);
 ```
 
 **R-Graphics:** 
-
-![image-20220901213948430](C:\Users\Pranav\AppData\Roaming\Typora\typora-user-images\image-20220901213948430.png)
+![image-20220901213948430](https://raw.githubusercontent.com/ydvpratik/img/master/2022/09/upgit_20220916_1663341095.png)
