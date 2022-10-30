@@ -217,9 +217,7 @@ paste0("This implies that proportional allocation provides better estimates as c
 ```
 
 **Conclusion:**  From the above experiment we conclude that,
-$\displaystyle Var(\hat Y)_R=15422678$ , 
-
-$\displaystyle Var(\hat Y)_P=8555881$  and  
+$\displaystyle Var(\hat Y)_R=15422678$ ,   $\displaystyle Var(\hat Y)_P=8555881$  and  
 
 $Var(\hat Y)_{Ney}=7110756$. 
 Also observed that Neyman's optimum allocation provides better estimates as compared to proportional allocation.
