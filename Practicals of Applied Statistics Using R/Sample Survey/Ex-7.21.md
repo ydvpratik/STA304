@@ -39,7 +39,7 @@ $$
 
 Where $S^2=\frac{1}{N-1}\displaystyle\sum_i\sum_j(y_{ij}-\bar y_{..})^2$ is the total mean S.S
 
-Total S.S =$\displaystyle\sum \sum {y_{ij}}^2-Correction \ factor$
+Total S.S = $\displaystyle\sum \sum {y_{ij}}^2-Correction \ factor$
 
 Between Strata S.S= $\displaystyle\sum_{j=1}^n\frac{{T_{.j}}^2}{k}-C.F.$
 
@@ -135,6 +135,8 @@ paste0("We observe that variance of ",order[1],"<",order[2],"<",order[3])
 [1] "We observe that variance of Stratified<Systematic<Random Sampaling"
 ```
 
-**Conclusion:** From the above experiment we conclude that $\displaystyle Var(\bar y_{st})<Var(\bar y_{sys})<Var(\bar y_{n})_R$ .
+**Conclusion:** From the above experiment we conclude that,
+
+$\displaystyle Var(\bar y_{st})<Var(\bar y_{sys})<Var(\bar y_{n})_R$ .
 
  
