@@ -25,7 +25,7 @@
 
 **Procedure:**  $\displaystyle \bar p=\frac{\sum d}{nk}$ ;   Where d is no. of defective , n is sample size.
 
-​	$\displaystyle 3-\sigma \;Control\;Limits\;for\;p-chart\;is: \;CL_p=\bar p\;,\;UCL_p=\bar p+3\sqrt{\frac{\bar p(1-\bar p)}{n}}\;\;\;and \;LCL_p=\bar p-3\sqrt{\frac{\bar p(1-\bar p)}{n}}$  	 
+​	$\displaystyle 3-\sigma ~ Control ~ Limits ~ for ~ p-chart ~ is: ~ CL_p=\bar p ~ , ~ UCL_p=\bar p+3\sqrt{\frac{\bar p(1-\bar p)}{n}} ~ and ~ LCL_p=\bar p-3\sqrt{\frac{\bar p(1-\bar p)}{n}}$  	 
 
 **R-code:** 
 
