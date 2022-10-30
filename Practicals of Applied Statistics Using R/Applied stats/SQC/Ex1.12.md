@@ -14,9 +14,9 @@ Construct the 'number of defectives' chart and establish quality standard for th
 
 **Aim:** To Construct the 'number of defectives' chart and establish quality standard for the future.
 
-**Procedure:** Estimate of the process fraction defective is given by $\displaystyle \bar p=\frac{\sum d}{nk}$  ; where d is no. of defectives and n is sample size.
+**Procedure:** Estimate of the process fraction defective is given by  $\displaystyle \bar p=\frac{\sum d}{nk}$  ; where d is no. of defectives and n is sample size.
 
-$\displaystyle 3-\sigma $  control limits for np-chart are given by; $CL_{np}=n\bar p\;,\;UCL_{np}=n\bar p+3\sqrt{n\bar p(1-\bar p)}\;and\;LCL_{np}=n\bar p-3\sqrt{n\bar p(1-\bar p)}$ 
+ $\displaystyle 3-\sigma$  control limits for np-chart are given by; $CL_{np}=n\bar p, ~~ UCL_{np}=n\bar p+3\sqrt{n\bar p(1-\bar p)} ~~ and ~~ LCL_{np}=n\bar p-3\sqrt{n\bar p(1-\bar p)}$ 
 
 **R-Code:** 
 
@@ -76,4 +76,4 @@ new_LCL_np = max(0,new_CL_np - 3*sqrt(new_CL_np*new_qbar));new_LCL_np
 [1] 0
 ```
 
-**Conclusion: ** From the above experiment we conclude that two point corresponding to 5th and 8th samples lies outside the control limit, so the process is not in the state of statistical control. After deleting these sample, revised control limits are CL = 0.83, UCL = 3.45 and LCL = 0.
+**Conclusion:** From the above experiment we conclude that two point corresponding to 5th and 8th samples lies outside the control limit, so the process is not in the state of statistical control. After deleting these sample, revised control limits are CL = 0.83, UCL = 3.45 and LCL = 0.
